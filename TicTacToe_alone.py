@@ -151,6 +151,10 @@ def player_select(player):
         player = 2
     elif player == 2:
         player = 1
+    elif player == 0:
+        player = 1
+    else:
+        print('Player error occured')
     return player
 
 
